@@ -19,11 +19,10 @@ namespace API.Controllers
             return Ok(_numbers);
         }
 
-
         [HttpPost("{id}")]
         public IActionResult GetById(string id)
         {
-            // _numbers.Push(id);
+            // _numbers.Push(id); ok
             return Ok(100);
         }
     }
